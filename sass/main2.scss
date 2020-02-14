@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #e8eaef79;
 
     .client1 {
         p {
@@ -20,7 +21,7 @@ body {
         .clt1 {
             display: flex;
             align-items: center;
-            padding: 20px;
+        
 
             img {
                 width: 100px;
@@ -29,6 +30,7 @@ body {
 
             h3 {
                 font-size: 25px;
+                margin-left: 10px;
 
                 span {
                     color: rgb(53, 53, 177);
@@ -53,6 +55,7 @@ body {
 
             h3 {
                 font-size: 25px;
+                margin-left: 10px;
 
                 span {
                     color: rgb(53, 53, 177);
@@ -64,7 +67,7 @@ body {
 
 .team {
     padding: 30px;
-    padding-top: 55px;
+    padding-top: 1px;
     background-color: #e8eaef;
     h1 {
         font-size: 60px;
