@@ -32,7 +32,7 @@
 .part6 {
   text-align: center;
   font-family: sans-serif;
-  margin-top: 2em; }
+  margin-top: 30px; }
 
 .whole {
   background-color: rgba(202, 202, 209, 0.3);
@@ -78,7 +78,6 @@ body h1, body footer .para, footer body .para {
         color: #3535b1; }
 
 .team {
-  padding: 30px;
   padding-top: 1px;
   background-color: #e8eaef; }
   .team h1, .team footer .para, footer .team .para {
@@ -130,12 +129,9 @@ body h1, body footer .para, footer body .para {
     left: 1570px;
     top: 1030px; }
 
-* {
-  margin: 0px;
-  padding: 0px; }
-
 footer {
-  padding: 5px; }
+  padding: 5px;
+  background-image: url("../img/footer-image.png"); }
   footer h1, footer .para, footer h3 {
     text-align: center;
     color: white;
