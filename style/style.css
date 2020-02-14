@@ -39,7 +39,7 @@
   padding: 40px;
   background-color: #e8eaef79; }
 
-body h1 {
+body h1, body footer .para, footer body .para {
   font-size: 30px;
   text-align: center; }
 
@@ -81,7 +81,7 @@ body h1 {
   padding: 30px;
   padding-top: 1px;
   background-color: #e8eaef; }
-  .team h1 {
+  .team h1, .team footer .para, footer .team .para {
     font-size: 60px;
     text-align: center; }
   .team .imgs {
@@ -130,7 +130,75 @@ body h1 {
     left: 1570px;
     top: 1030px; }
 
+* {
+  margin: 0px;
+  padding: 0px; }
+
+footer {
+  padding: 5px; }
+  footer h1, footer .para, footer h3 {
+    text-align: center;
+    color: white;
+    margin: 20px; }
+  footer .para {
+    width: 1000px;
+    margin: auto; }
+  footer .botton {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center; }
+    footer .botton--B1, footer .botton--B2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      footer .botton--B1 a, footer .botton--B2 a {
+        text-align: center; }
+      footer .botton--B1 .btn1, footer .botton--B1 .btn2, footer .botton--B2 .btn1, footer .botton--B2 .btn2 {
+        border: 0px solid white;
+        margin: 20px;
+        width: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        background-color: white; }
+      footer .botton--B1 .btn2, footer .botton--B2 .btn2 {
+        color: white;
+        background-color: #35c2cd; }
+  footer .lien-1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+    flex-wrap: wrap; }
+  footer .lien1 {
+    color: white;
+    text-decoration: none; }
+  footer .lien2 {
+    color: white;
+    text-decoration: none; }
+  footer .icon img {
+    max-width: 50px; }
+  footer .icon {
+    float: right;
+    margin-right: 70px; }
+  footer h4, footer .para1, footer .para2 {
+    margin: 2px 80px;
+    width: 200px;
+    color: white; }
+  footer .adresse {
+    margin-top: 100px; }
+  footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    margin-top: 100px;
+    color: white;
+    flex-wrap: wrap; }
+  footer .lien3, footer .lien4 {
+    margin: 10px 20px;
+    color: white; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Poppins', sans-serif; }
