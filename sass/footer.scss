@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    padding: 5px;
+    h1 , h3{
+        text-align: center;
+        color: white;
+        margin: 20px;
+    }
+    .para{
+        @extend h1 ;
+        width: 30%;
+        margin-left: 35%;
+    }
+    .botton{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+        &--B1 , &--B2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        a{
+            text-align: center;
+          }
+        .btn1{
+        border: 0px solid white;
+        margin: 20px;
+        width: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+    }
+    .btn2{
+        @extend .btn1 ;
+        color: white;
+        background-color: #35c2cd;
+    }
+    }
+    }
+    .lien-1{
+        display: flex;
+        justify-content: center;
+        margin-right: 60px;
+        flex-wrap: wrap;
+    }
+    .lien1{
+        color: white;
+        text-decoration: none;
+    }
+
+    .lien2{
+        color: white;
+        text-decoration: none;
+    }
+    .icon img{
+        max-width: 50px;
+    }
+    .icon{
+        float: right;
+        margin-right: 70px;
+    }
+    h4 , .para1 , .para2{
+        margin: 2px 80px;
+        width: 200px;
+        color: white;
+    }
+    .adresse{
+        margin-top: 100px;
+    }
+    .copyright{
+        display: flex;
+        justify-content: space-between;
+        margin: 60px;
+        margin-top: 100px;
+        color: white;
+        flex-wrap: wrap;
+    }
+    .lien3 , .lien4{
+        margin: 10px 20px;
+        color: white;
+    }
+}
