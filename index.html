@@ -7,35 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>web design with sass</title>
 </head>
 <body>
-    <nav class="container">
-        <button class="menu" id="menu" onclick="toggleMenu()"><img src="./img/menu.svg" alt=""></button>
-        <a href="#" class="logo" ><img src="./img/logo-youcode.png" alt="logo-youcode" width="60%"></a>
-        <ul id="links" class="">
-            <li class="link-item"><a href="#">visite guidée</a></li>
-            <li class="link-item"><a href="#">études de cas</a></li>
-            <li class="link-item"><a href="#">contactez nous</a></li>
-            <li class="link-item"><a href="#">obtenez un devis</a></li>
-        </ul>
-        <button class="header--nav">Votre devis</button>
-    </nav>
     <header>
-        <div>
-            <h1>nous aidons à bâtir la confiance dans la conception</h1>
-            <p>Nous sommes passionnés par la création de designs adaptatifs qui amélioreront votre présence
-                numérique et augmenteront le taux de rétention et la confiance des visiteurs de votre site Web.
-            </p>
-            <button>Commencer maintenant</button>
-        </div>
-        <div class="overlay">
-            <video width="100%" controls="controls" id="video" muted poster="./img/vedeo-ply_vf.png">
-                <source src="./img/video.mp4" type="video/mp4">
-                <p>your browser doesn't support display mp4 video <a href="#">click here to view the video</a></p>
-            </video>
-        </div>
-    </header> 
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light  ">
+              <a class="navbar-brand" href="#"><img src="img/logo-youcode.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-row-reverse font-weight-bold" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="#"> Visite guidée</a>
+                  <a class="nav-item nav-link" href="#">Etudes de cas</a>
+                  <a class="nav-item nav-link" href="#">Contactez-nous</a>
+                  <a class="nav-item nav-link" href="#">Obtenez un devis</a>
+                  <a class="nav-item nav-link btn btn-dark mx-5 py-1 text-light" href="#">Votre devis</a>
+                </div>
+              </div>
+          </div>
+          <div class="container">
+            <section class="header">
+              <div class="header__text">
+                <h1>Nous aidons à batir la confiance dans la conception</h1>
+                <p>Nous sommes passionnés par la création de designs adaptatifs qui amélioreront votre présence numerique et
+                  augmenteront le taux de rétention et la confiance des visiteurs de votre site Web</p>
+                <a href="#" class="btn btn-lg text-light">Commencez Maintenant</a>
+              </div>
+              <div class="header__video">
+                <video controls>
+                  <source src="img/vid.mp4" type="video/mp4">
+                </video>
+              </div>
+            </section>
+          </div>
+         
+      </header> <!-- end header -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <section>
         <div class="whole">
             <div class="part1">
@@ -182,7 +195,9 @@
 </footer> 
 
     <script src="./js/main.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
    
 </body>
 </html>
